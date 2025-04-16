@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package chat;
+
+// 消息类型（文本、图片、语音等）
+enum MessageType {
+    TEXT = 0;
+    IMAGE = 1;
+    VOICE = 2;
+    VIDEO = 3;
+}
+
+// 用户信息
+message User {
+    string user_id = 1;      // 用户ID（唯一标识）
+    string username = 2;     // 用户名
+    string avatar_url = 3;   // 头像URL
+}
+
+// 单条聊天消息
+message ChatMessage {
+    string message_id = 1;       // 消息唯一ID（UUID或时间戳+随机数）
+    User sender = 2;             // 发送者
+    User receiver = 3;           // 接收者（单聊）或群ID（群聊）
+    MessageType type = 4;        // 消息类型
+    string content = 5;          // 文本内容（或文件URL）
+    int64 timestamp = 6;         // 发送时间戳（毫秒）
+    bool is_group = 7;           // 是否为群消息
+}
+
+// 消息投递状态（可选）
+message DeliveryStatus {
+    string message_id = 1;       // 关联的ChatMessage ID
+    bool is_delivered = 2;       // 是否已送达
+    bool is_read = 3;            // 是否已读
+}

@@ -1,0 +1,8 @@
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/CMakeFiles/Basic_Client.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/CMakeFiles/test.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/CMakeFiles/edit_cache.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/CMakeFiles/rebuild_cache.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/test/CMakeFiles/run_tests.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/test/CMakeFiles/test.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/test/CMakeFiles/edit_cache.dir
+/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/test/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/areay7/QtCode/HST_Code/Test/Test0/build/CMakeFiles/Test_0.dir
+/Users/areay7/QtCode/HST_Code/Test/Test0/build/CMakeFiles/edit_cache.dir
+/Users/areay7/QtCode/HST_Code/Test/Test0/build/CMakeFiles/rebuild_cache.dir

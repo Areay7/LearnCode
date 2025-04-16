@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/cmake_install.cmake",
+		"/Users/areay7/QtCode/HST_Code/Basic_GoogleTest_Client/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
