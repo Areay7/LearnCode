@@ -103,7 +103,7 @@ int main() {
     std::string smtp_server = "smtp.163.com";
     int port = 465;  // 通常SSL使用465端口，非SSL使用25端口
     std::string username = "areay7@163.com";
-    std::string password = "BDQW3rCiZEy22p7a";
+    std::string password = "xxxxxx";
     
     // 邮件内容
     std::string from = "areay7@163.com";
